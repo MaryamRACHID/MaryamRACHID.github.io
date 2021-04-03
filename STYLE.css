@@ -1,10 +1,10 @@
 head{
-  background-image: url("LOGO.png");
+  background-image: url("./LOGO.png");
 }
 
 
 body{
-  background-image: url("imgs/backbody.png");
+  background-image: url("./backbody.png");
   background-size: 100%;
 }
 
@@ -77,13 +77,13 @@ Div.cv_footer{
 
 
 li.adresse{
-  list-style-image: url('imgs/map.png');}
+  list-style-image: url('./map.png');}
 li.em{
-    list-style-image: url('imgs/e.png');}
+    list-style-image: url('./e.png');}
 li.tel{
-    list-style-image: url('imgs/phon.png');}
+    list-style-image: url('./phon.png');}
 li.linkedd{
-    list-style-image: url('imgs/LINKEDD.png');}
+    list-style-image: url('./LINKEDD.png');}
 Li{
   font: 15px Arial, sans-serif;
 }
