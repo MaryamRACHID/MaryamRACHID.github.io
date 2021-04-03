@@ -72,13 +72,13 @@ Div.cv_footer{
 
 
 li.adresse{
-  list-style-image: url('./map.png');}
+  list-style-image: url('map.png');}
 li.em{
-    list-style-image: url('./e.png');}
+    list-style-image: url('e.png');}
 li.tel{
-    list-style-image: url('./phon.png');}
+    list-style-image: url('phon.png');}
 li.linkedd{
-    list-style-image: url('./LINKEDD.png');}
+    list-style-image: url('LINKEDD.png');}
 Li{
   font: 15px Arial, sans-serif;
 }
