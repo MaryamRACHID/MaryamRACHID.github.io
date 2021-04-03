@@ -1,0 +1,89 @@
+head{
+  background-image: url("LOGO.png");
+}
+
+
+body{
+  background-image: url("imgs/backbody.png");
+  background-size: 100%;
+}
+
+
+
+h2 {
+  color: #0060a8;
+  font:  small-caps bold 22px/22px Georgia, serif;
+}
+
+
+
+img {
+  border-radius: 100%;
+  text-align: center;
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+
+
+}
+strong {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 49.7%;
+  transform: translate(-50%, -50%);
+  color: #e8e9e9;
+  background-color: #0060a8;
+  font-size: 25px
+}
+.profili {
+  position: absolute;
+  top: 14%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  background-color: #cae0f0;
+}
+
+
+Div.contact{
+  text-align: left;
+  position: absolute;
+  top: 25%;}
+Div.formation{
+    text-align: left;
+    position: absolute;
+    top: 46%;}
+Div.competance{
+    text-align: left;
+    position: absolute;
+    top: 64%;}
+Div.skills{
+    text-align: left;
+    position: absolute;
+    top: 88%;}
+Div.email{
+    text-align: left;
+    position: absolute;
+    font: 15px Arial, sans-serif;
+    top: 130%;}
+Div.cv_footer{
+    text-align: center;
+    left: 45%;
+    position: absolute;
+    top: 170%;}
+
+
+li.adresse{
+  list-style-image: url('imgs/map.png');}
+li.em{
+    list-style-image: url('imgs/e.png');}
+li.tel{
+    list-style-image: url('imgs/phon.png');}
+li.linkedd{
+    list-style-image: url('imgs/LINKEDD.png');}
+Li{
+  font: 15px Arial, sans-serif;
+}
