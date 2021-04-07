@@ -4,7 +4,7 @@ head{
 
 
 body{
-  background-image: url("imgs/backbody.png");
+  background-image: url("backbody.png");
   background-size: 100%;
   font-size: 20px
 }
@@ -91,16 +91,16 @@ Div.cv_footer{
     top: 268%;}
 
 li.adresse{
-  list-style-image: url('imgs/map.png');
+  list-style-image: url('map.png');
   font-size: 20px}
 li.em{
-    list-style-image: url('imgs/e.png');
+    list-style-image: url('e.png');
   font-size: 20px}
 li.tel{
-    list-style-image: url('imgs/phon.png');
+    list-style-image: url('phon.png');
   font-size: 20px}
 li.linkedd{
-    list-style-image: url('imgs/LINKEDD.png');
+    list-style-image: url('LINKEDD.png');
   font-size: 20px}
 Li{
   font: 20px Arial, sans-serif;
