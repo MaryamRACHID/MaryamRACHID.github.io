@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<style>
+
+
+
+body {
+  width: 98%;
+  margin: 1% 1% 0 1%;
+  padding: 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*
+large screen
+*/
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.SousContainer, .SousContainer2 {
+  padding: 0;
+  margin-top: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+.header {
+  background-color: #558ed5;
+  width: 96%;
+  margin-left: 2%;
+  padding: 45px;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section0 {
+  background-color: #c4bd97;
+  margin-top: 8px;
+  width: 96%;
+  margin-left: 2%;
+  padding: 45px;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section1 {
+  background-color: #c6d9f1;
+  width: 22.25%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  padding-left: 8%;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section2 {
+  background-color: #e4b7b7;
+  width: 22.25%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  padding-left: 8%;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section3 {
+  background-color: #c3d69b;
+  width: 22.25%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  padding-left: 8%;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section4 {
+  background-color: #fac090;
+  width: 22.25%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  padding-left: 8%;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section5 {
+  background-color: #00b0f0;
+  width: 46.9%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.section6 {
+  background-color: #00b0f0;
+  width: 46.9%;
+  margin-left: 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+.footer {
+  background-color: #b3a2c7;
+  margin-top: 8px;
+  width: 96%;
+  margin-left: 2%;
+  padding: 45px;
+  box-sizing: border-box;
+  border: 4px solid #385d8a;
+}
+
+/*
+Tablets
+*/
+@media (min-width: 501px) and (max-width: 1024px) {
+  .section1 {
+    width: 46.5%;
+    margin-left: 2%;
+    margin-top: 0;
+  }
+
+  .section2 {
+    width: 46.5%;
+    margin-left: 2.5%;
+  }
+
+  .section3 {
+    width: 46.5%;
+    margin-left: 2%;
+    margin-top: 8px;
+  }
+
+  .section4 {
+    width: 46.5%;
+    margin-left: 2.5%;
+    margin-top: 8px;
+  }
+
+  .section5 {
+    display: block;
+    width: 96%;
+  }
+
+  .section6 {
+    margin-top: 1%;
+    display: block;
+    width: 96%;
+  }
+}
+
+/*
+telephone
+*/
+@media (max-width: 500px) {
+  .footer, .header, .section0, .section1, .section2, .section3, .section4, .section5, .section6 {
+    width: 98%;
+    display: block;
+    margin-top: 8px;
+  }
+}
+
+</style>
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      En-tête de la page
+    </header>
+
+    <section class="section0">
+      section0
+    </section>
+
+    <div class="SousContainer">
+
+      <section class="section1">
+        section1
+      </section>
+      <section class="section2">
+        section2
+      </section>
+      <section class="section3">
+        section3
+      </section>
+      <section class="section4">
+        section4
+      </section>
+
+    </div>
+
+    <div class="SousContainer2">
+      <section class="section5">
+        section5
+      </section>
+      <section class="section6">
+        section5
+      </section>
+    </div>
+    <footer class="footer">
+      Pied de page
+    </footer>
+
+  </div>
+</body>
+</html>
